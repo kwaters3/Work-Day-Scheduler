@@ -17,7 +17,8 @@
    
  ## Visuals
  #### Click on the image below to reveal the live demonstration:
-   [![Screenshot](assets/images/05-third-party-apis-homework-demo.gif)](https://kwaters3.github.io/Work-Day-Scheduler/)  
+ 
+   ![Alt Text](assets/images/05-third-party-apis-homework-demo.gif)(https://kwaters3.github.io/Work-Day-Scheduler/)  
  
  ## Installation
  #### To install the given application/project:
