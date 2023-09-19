@@ -30,7 +30,7 @@ $(document).ready(function () {
       $(this).addClass('present');
     }
 
-    
+    // input is saved into local storage
     savedInput = localStorage.getItem(timeId);
     $(this).find('.description').val(savedInput);
   })
