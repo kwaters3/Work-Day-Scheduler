@@ -1,4 +1,7 @@
 body {
+  background-image: url(/Assets/images/IMG_0397.JPG);
+  background-position: center;
+  background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
