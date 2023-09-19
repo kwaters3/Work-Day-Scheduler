@@ -21,11 +21,15 @@
  
  ## Installation
  #### To install the given application/project:
-   Open the index.html file with live server or in your browser. When the planner is opened, the current day will be displayed at the top of the calendar. When the user scrolls down, then the user is presented with time blocks for standard business hours of 9am to 5pm. 
+   * Open the index.html file with live server or in your browser. 
+   * When the planner is opened, the current day will be displayed at the top of the calendar. 
+   * When the user scrolls down, then the user is presented with time blocks for standard business hours of 9am to 5pm. 
  
  ## Usage
   #### How to use the application/project:
-   Once the user properly installs and opens the project, then the user i able to view the time blocks for that day, with each hour color coded to represent past, present, and future blocks. The user is able to click into a time block and enter an event. The user can then click the save button for that time block to save into local storage, even after the page refreshes. 
+   * Once the user properly installs and opens the project, then the user is able to view the time blocks for that day, with each hour color coded to represent past, present, and future blocks. 
+   * The user is able to click into a time block and enter an event. 
+   * The user can then click the save button for that time block to save into local storage, even after the page refreshes. 
  
  ## License
    This project is covered under the following license: [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)
