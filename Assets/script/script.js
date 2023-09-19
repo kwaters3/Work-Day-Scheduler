@@ -4,23 +4,24 @@ $(document).ready(function () {
   const blockTime = $('.time-block');
 
  
+  // this saves the input into local storage
   blockTime.on('click', '.saveBtn', function () {
     const idValue = $(this).closest('.time-block').attr('id');
     const inputValue = $(this).siblings('.description');
     localStorage.setItem(idValue, inputValue.val());
   })
 
-  // The ID of each timeBlock is checked against the current hour
-  // and a new class is added to each element.
+
+  // Time is updated per hour 
   blockTime.each(function () {
 
-    hourId = $(this).attr('id');
-    currentHour = dayjs().format('HH')
-    if (hourId < currentHour) {
+    timeId = $(this).attr('id');
+    currentTime = dayjs().format('H')
+    if (timeId < currentTime) {
       $(this).removeClass('present future');
       $(this).addClass('past');
     }
-    else if (hourId > currentHour) {
+    else if (timeId > currentTime) {
       $(this).removeClass('present past');
       $(this).addClass('future');
     }
@@ -30,7 +31,7 @@ $(document).ready(function () {
     }
 
     
-    savedInput = localStorage.getItem(hourId);
+    savedInput = localStorage.getItem(timeId);
     $(this).find('.description').val(savedInput);
   })
 
